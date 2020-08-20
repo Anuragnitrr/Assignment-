@@ -103,7 +103,7 @@ def OnSelected(event):
     CONTACT.set(selecteditem[6])
     UpdateWindow = Toplevel()
     UpdateWindow.title("Contact List")
-    width = 400
+    width = 500
     height = 300
     screen_width = root.winfo_screenwidth()
     screen_height = root.winfo_screenheight()
